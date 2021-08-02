@@ -8,6 +8,6 @@ RUN apk --update --no-cache add musl gcc build-base freetype-dev libpng-dev open
     py3-pip
 
 #best practice for pip installs is to run pip cache purge after all pip install calls
-# Example install procedure is bellow 
+# Example install procedure is below
 # pip install numpy
 # pip cache purge
